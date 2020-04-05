@@ -15,11 +15,11 @@
         {
             List<ExpenseVariable> expensesVariableTemplate = new List<ExpenseVariable>
             {
-                new ExpenseVariable("food", 800),
-                new ExpenseVariable("fuel", 100),
-                new ExpenseVariable("cigarettes", 100),
-                new ExpenseVariable("going out", 300),
-                new ExpenseVariable("unexpected", 200)
+                new ExpenseVariable("expense variable", 100),
+                new ExpenseVariable("expense variable", 100),
+                new ExpenseVariable("expense variable", 100),
+                new ExpenseVariable("expense variable", 100),
+                new ExpenseVariable("expense variable", 100),
             };
 
             return expensesVariableTemplate.OrderByDescending(x => x.Value).ToList();

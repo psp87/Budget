@@ -15,16 +15,11 @@
         {
             List<ExpenseFixed> expensesFixedTemplate = new List<ExpenseFixed>
             {
-                new ExpenseFixed("rent", 780),
-                new ExpenseFixed("accounts", 120),
-                new ExpenseFixed("credit velina", 250),
-                new ExpenseFixed("credit plamen", 330),
-                new ExpenseFixed("tv & net", 60),
-                new ExpenseFixed("phone", 10),
-                new ExpenseFixed("procedures", 200),
-                new ExpenseFixed("big spends", 100),
-                new ExpenseFixed("sports plamen", 50),
-                new ExpenseFixed("sports velina", 20),
+                new ExpenseFixed("expense fixed", 100),
+                new ExpenseFixed("expense fixed", 100),
+                new ExpenseFixed("expense fixed", 100),
+                new ExpenseFixed("expense fixed", 100),
+                new ExpenseFixed("expense fixed", 100),
             };
 
             return expensesFixedTemplate.OrderByDescending(x => x.Value).ToList();

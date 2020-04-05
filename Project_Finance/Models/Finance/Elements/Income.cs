@@ -15,11 +15,11 @@
         {
             List<Income> incomesTemplate = new List<Income>
             {
-                new Income("salary velina", 2050),
-                new Income("salary plamen", 1810),
-                new Income("vouchers", 60),
-                new Income("overtime", 0),
-                new Income("other", 0)
+                new Income("income", 100),
+                new Income("income", 100),
+                new Income("income", 100),
+                new Income("income", 100),
+                new Income("income", 100),
             };
 
             return incomesTemplate.OrderByDescending(x => x.Value).ToList();
